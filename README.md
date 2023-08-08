@@ -3,13 +3,12 @@ Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 
 # Table of Content
 - [Kriteria & Penilaian Submission](#kriteria--penilaian-submission)
-- [Final Project Struture](#final-project-struture)
+- [Final Directory Project Structure](#final-directory-project-structure)
 - [Dataset](#dataset-used)
 - [Introduction](#introduction)
 - [Business Problem](#business-problem)
 - [Data Overview](#data-overview)
 - [Methodology](#methodology)
-- [Directory Structure](#directory-structure)
 - [Setup Environment](#setup-environment)
 - [Run Streamlit App](#run-streamlit-app)
 
@@ -24,14 +23,19 @@ Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 1. Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan analisis data. 
 2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
 3. Deploy dashboard ke dalam streamlit cloud.
-4. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning) 
+4. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning)
 
-# Final Project Struture
+# Final Directory Project Structure
 ```
-.
+./Bike-Sharing-Data-Analysis
 ├── README.md
 ├── Submission_Proyek_Akhir_Analisis_Data.ipynb
 ├── bike-sharing
+│   ├── file
+│   │   ├── day.csv
+│   │   ├── df_day_hour.csv
+│   │   └── hour.csv
+│   └── main.py
 ├── requirements.txt
 └── venv
 ```
@@ -81,19 +85,6 @@ Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 - Exploratory Data Analysis (EDA)
 - Visualization & Explanatory Analysis
 - Conclusion
-
-# Directory Structure
-```
-./Bike-Sharing-Data-Analysis
-├── README.md
-├── Submission_Proyek_Akhir_Analisis_Data.ipynb
-├── bike-sharing
-│   ├── file
-│   │   └── df_day_hour.csv
-│   └── main.py
-├── requirements.txt
-└── venv
-```
 
 # Setup Environment
 ```

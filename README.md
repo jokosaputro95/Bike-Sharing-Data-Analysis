@@ -2,6 +2,8 @@
 Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 
 # Table of Content
+- [Kriteria & Penilaian Submission](#kriteria--penilaian-submission)
+- [Final Project Struture](#final-project-struture)
 - [Dataset](#dataset-used)
 - [Introduction](#introduction)
 - [Business Problem](#business-problem)
@@ -10,6 +12,29 @@ Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 - [Directory Structure](#directory-structure)
 - [Setup Environment](#setup-environment)
 - [Run Streamlit App](#run-streamlit-app)
+
+# Kriteria & Penilaian Submission
+## Kriteria
+- [x] Menggunakan Salah Satu dari Dataset yang Telah disediakan
+- [x] Melakukan Seluruh Proses Analisis Data dengan minimal 2 buah pertanyaan bisnis dan 2 buah visualisasi data
+- [x] Proses Analisis Dibuat dalam Notebook yang Rapi
+- [x] Membuat Dashboard Sederhana Menggunakan Streamlit
+
+# Final Project Struture
+```
+.
+├── README.md
+├── Submission_Proyek_Akhir_Analisis_Data.ipynb
+├── bike-sharing
+├── requirements.txt
+└── venv
+```
+
+## Penilaian
+1. Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan analisis data. 
+2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
+3. Deploy dashboard ke dalam streamlit cloud.
+4. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning) 
 
 # Dataset Used:
 Data set yang digunakan pada Penyelesaian Submission Akhir ini adalah: [bike-sharing-dataset](https://drive.google.com/file/d/1RaBmV6Q6FYWU4HWZs80Suqd7KQC34diQ/view)

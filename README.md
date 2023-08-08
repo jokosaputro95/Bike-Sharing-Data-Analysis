@@ -20,6 +20,12 @@ Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 - [x] Proses Analisis Dibuat dalam Notebook yang Rapi
 - [x] Membuat Dashboard Sederhana Menggunakan Streamlit
 
+## Penilaian
+1. Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan analisis data. 
+2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
+3. Deploy dashboard ke dalam streamlit cloud.
+4. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning) 
+
 # Final Project Struture
 ```
 .
@@ -29,12 +35,6 @@ Submission ini mendapatkan :star::star::star::star::star: dari reviewer
 ├── requirements.txt
 └── venv
 ```
-
-## Penilaian
-1. Memberikan dokumentasi menggunakan text cell pada notebook (.ipynb) untuk menjelaskan setiap tahapan analisis data. 
-2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
-3. Deploy dashboard ke dalam streamlit cloud.
-4. Menerapkan teknik analisis lanjutan seperti RFM analysis, geoanalysis, clustering, dll. (Tanpa menggunakan algoritma machine learning) 
 
 # Dataset Used:
 Data set yang digunakan pada Penyelesaian Submission Akhir ini adalah: [bike-sharing-dataset](https://drive.google.com/file/d/1RaBmV6Q6FYWU4HWZs80Suqd7KQC34diQ/view)
